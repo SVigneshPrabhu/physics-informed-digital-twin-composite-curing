@@ -1,0 +1,4 @@
+Result for 24Hr RL training with low to mid range computational capacity.
+Processor:AMD Ryzen 5 5600H with Radeon Graphics (3.30 GHz)
+RAM:8GB
+Training time: 24Hr
