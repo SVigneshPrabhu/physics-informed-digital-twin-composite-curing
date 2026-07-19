@@ -10,9 +10,10 @@ A PPO (Proximal Policy Optimization) agent was trained to control multi-zone hea
 
 ## Key Results
 
-- **95% cure uniformity** achieved, compared to **43%** with standard fixed heating profiles
-- Simulation time reduced from **weeks to hours**
-- Agent trained over 20+ hours to meet aerospace-grade cure specifications
+- **AI policy achieves 95.0% cure completion**, safely approaching but not exceeding the 180°C thermal safety limit
+- **Industry-standard baseline reaches only 43.2% cure** in the same time window — it fails to complete curing
+- AI cycle time: 196.3 min (baseline shown is a partial/incomplete cure, so cycle times aren't directly comparable)
+- Near-miss constraint penalties (ramp rate, thermal lag) were used during training to keep the policy within safe operating bounds, not just optimize for speed
 
 ## How It Works
 
